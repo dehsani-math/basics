@@ -1,0 +1,130 @@
+\documentclass{amsart}
+
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage[mathscr]{eucal}
+\usepackage[pdftex]{xcolor}
+\usepackage{mathpazo}
+\usepackage{comment} 
+
+
+\newtheorem{thrm}{Theorem}[section]
+\newtheorem{lemma}[thrm]{Lemma}
+\newtheorem{prop}[thrm]{Proposition}
+\newtheorem{cor}[thrm]{Corollary}
+\newtheorem{main}{Main Theorem}
+\newtheorem*{main*}{Main Theorem}
+\newtheorem{claim}[thrm]{Claim}
+
+\theoremstyle{definition}
+\newtheorem{defn}[thrm]{Definition}
+\newtheorem{ex}[thrm]{Example}
+
+\theoremstyle{remark}
+\newtheorem{remark}[thrm]{Remark}
+\newtheorem*{question*}{Question}
+
+\numberwithin{equation}{section}
+
+\newcommand{\todo}[1]{\vspace{5 mm}\par \noindent
+\marginpar{\textsc{ToDo}} \framebox{\begin{minipage}[c]{0.95
+\textwidth} \tt #1 \end{minipage}}\vspace{5 mm}\par}
+
+\newcommand{\dbar}{$\bar{\partial}$}
+\newcommand{\mdbar}{\bar{\partial}}
+
+
+%%%%%%%%%%%%%
+%Here are some useful Commands
+%%%%%%%%%%%%%%
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\disk}{\mathbb{D}}
+\newcommand{\D}{\Omega}
+\newcommand{\Hart}{\mathcal{H}}
+\newcommand{\ep}{\varepsilon}
+\newcommand{\re}{\text{Re}}
+\newcommand{\im}{\text{Im}}
+\newcommand{\Dc}{\overline{\Omega}}
+%\newcommand{\dbar}{\overline{\partial}}
+\newcommand{\zb}{\bar{z}}
+\newcommand{\wb}{\bar{w}}
+\newcommand{\ub}{\bar{u}}
+\newcommand{\vb}{\bar{v}}
+\newcommand{\Lb}{\overline{L}}
+\newcommand{\Tb}{\overline{T}}
+\newcommand{\Vb}{\overline{V}}
+\newcommand{\Wb}{\overline{W}}
+\newcommand{\Xb}{\overline{X}}
+\newcommand{\zetab}{\overline{\zeta}}
+\newcommand{\omegab}{\bar{\omega}}
+\newcommand{\gammab}{\bar{\gamma}}
+\newcommand{\betab}{\bar{\beta}}
+\newcommand{\mub}{\overline{\mu}}
+\newcommand{\nub}{\overline{\nu}}
+\newcommand{\lrc}{\mathcal{C}}
+\newcommand{\lra}{\mathcal{A}}
+\newcommand{\lre}{\mathcal{E}}
+\newcommand{\lrf}{\mathcal{F}}
+\newcommand{\lrg}{\mathcal{G}}
+\newcommand{\lrw}{\mathcal{W}}
+\newcommand{\lrl}{\mathcal{L}}
+\newcommand{\lrs}{\mathcal{S}}
+\newcommand{\lrr}{\mathcal{R}}
+\newcommand{\lrh}{\mathcal{H}}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\red}[1]{{\color{red}{#1}}} %red
+\newcommand{\blue}[1]{{\color{blue}{#1}}} %blue
+
+\newcommand{\wedgeprod}{\mathsans{\mupLambda}}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%spacing
+\usepackage{mathrsfs,latexsym,url,setspace}
+\onehalfspace
+
+\begin{document}
+
+
+\bibliographystyle{plain}
+
+
+\title{
+	My title
+}
+
+\author{Dariush Ehsani}
+
+
+
+\address{
+	FIZ Karlsruhe - 
+		Leibniz Institute for Information Infrastructure\\
+	Department of Mathematics\\
+	Franklinstr. 11\\
+	D-10587 Berlin\\
+	Germany
+}
+\email{dehsani.math@gmail.com}
+
+\subjclass[2020]{}
+
+
+\begin{abstract}
+
+\end{abstract}
+
+
+\maketitle
+
+
+\section{Introduction} 
+\label{intro} 
+
+
+
+\bibliography{scv}
+
+
+\end{document}
